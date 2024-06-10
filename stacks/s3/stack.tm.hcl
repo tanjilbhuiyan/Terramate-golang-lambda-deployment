@@ -8,5 +8,7 @@ stack {
     "aws",
     "storage"
   ]
-  before = ["Lambda Function"]
+  before = [
+    "tag:aws:lambda"
+  ]
 }

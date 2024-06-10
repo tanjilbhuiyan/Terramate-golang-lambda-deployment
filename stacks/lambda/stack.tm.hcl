@@ -8,5 +8,7 @@ stack {
     "aws",
     "compute"
   ]
-  after = ["Storage Bucket"]
+    after = [
+    "tag:aws:s3"
+  ]
 }
