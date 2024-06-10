@@ -8,4 +8,5 @@ stack {
     "aws",
     "compute"
   ]
+  after = ["Storage Bucket"]
 }

@@ -8,4 +8,5 @@ stack {
     "aws",
     "storage"
   ]
+  before = ["Lambda Function"]
 }
